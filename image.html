@@ -2,19 +2,67 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     </head>
     <body>
-        <form  method='get' action="https://images.google.com/search">
-            <input name="q" type="text" >
+       
+        
+          <div class="position-relative" style="padding-top: 40px;">
+            <div class="position-absolute top-50 end-0 translate-middle-y">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Search</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="image.html">Image Search</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Advanced Search</a>
+                          </li>
+                          
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+          
+          </div>        <center>
+            <img src="logo.png"
+        </center>
+
+        <form method='get' action="https://images.google.com/search">
+            <input name="q" type="text"  size="54">
             <input name="tbm" type="hidden" value="isch">
             <input name="ved" type="hidden" value="2ahUKEwjm1NDG77z4AhWDEt8KHabbADwQ2-cCegQIABAA">
-            <input type="submit" value="Google Image Search">
+            <div class="parent">
+            <div class="child">
+                <input type="submit" value="Google Image Search" class="form-control">
+            </div>
+            <div class="child">
+                <input type="submit" value="I'm Feeling Lucky" class="form-control">
+            </div>
+            </div>
         </form>
     </body>
 </html>
+    
 
 <!--
+
+<form  method='get' action="https://images.google.com/search">
+    <input name="q" type="text" >
+    <input name="tbm" type="hidden" value="isch">
+    <input name="ved" type="hidden" value="2ahUKEwjm1NDG77z4AhWDEt8KHabbADwQ2-cCegQIABAA">
+    <input type="submit" value="Google Image Search">
+
 
 https://www.google.com/search?q=s&sxsrf=ALiCzsaoo9D5nKDVzIt2cd3pqmVGd0TUvw%3A1655738503964&source=hp&ei=h5CwYvaZOOfnwbkPmKWPmA4&iflsig=AJiK0e8AAAAAYrCel2el9q7YrIxgknEJxRYzEoevEHQD&ved=0ahUKEwi2-ffKqrz4AhXnczABHZjSA-MQ4dUDCAc&uact=5&oq=s&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAguEEMyCwguEIAEEMcBEKMCMgUIABCABDIFCAAQgAQyBQguEIAEMgsILhCABBDHARDRAzIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnUIcCWIcCYPsIaAFwAHgAgAGkAYgBpAGSAQMwLjGYAQCgAQGwAQo&sclient=gws-wiz
 https://www.google.com/search?q=s&tbm=isch&sxsrf=ALiCzsbkMHWi9m-5wjIxsKdHEPxyFEMNFw%3A1655736395332&source=hp&biw=1366&bih=625&ei=S4iwYp-1EavmwbkP5_en8Ao&iflsig=AJiK0e8AAAAAYrCWWw5T-VeR8IyvmnuaJiejB--0QpxH&ved=0ahUKEwjfhrvdorz4AhUrczABHef7Ca4Q4dUDCAc&uact=5&oq=s&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEOoCECdQDlgOYL0CaAFwAHgAgAFviAFvkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQQ&sclient=img
