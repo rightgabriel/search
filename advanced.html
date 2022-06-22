@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Advanced Search</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -24,10 +24,10 @@
                       <a class="nav-link text-body" aria-current="page" href="index.html" >Back to Search</a>
                     </li>
                     <li class="nav-item top" style="margin-top: 5px;">
-                      <img src="dots.png" height="25px" width="25px">
+                      <img src="images/dots.png" height="25px" width="25px">
                     </li>
                     <li class="nav-item" style="margin-top: 3px;">
-                      <img src="G.svg" height="35px" width="35px">
+                      <img src="images/G.svg" height="35px" width="35px">
                     </li>
                       
                     </li>
@@ -39,21 +39,28 @@
     
     </div>        
 
-
            <!--
             Google logo centered
           -->
           <center>
-            <img src="logo.png" class="img2">
+            <img src="images/logo.png" class="img2">
           </center>
+
+          <!--
+          Headings
+          -->
+        
+        <p style="color: #d0312d; padding: 10px; font-size: 20px;">Advanced Search </p>
+        <hr style="color: grey">
+
+        <div class="parent">
+        <div class="child4"><p>Find pages with... </p></div>
+        <div class="child4" style="color: #8a8a8a; "><p><strong>To do this in the search box</strong></p></div>
+        </div>
 
            <!--
           Search input bars
            -->
-        
-        <p style="color: #d0312d; padding: 10px;">Advanced Search </p>
-        <hr style="color: grey">
-        <p>Find pages with... </p>
 
         <form method='get' action="https://google.com/search">
           <table>
@@ -63,7 +70,7 @@
 
             <tr>
               <td><p>all these words... </p></td>
-              <td><input name="as_q" type="text" value="" size="40"></td>
+              <td><input name="as_q" type="text" value="" size="65"></td>
               <td class="td3"><p>Type the important words: tri-colour rat terrier</p></td>
             </tr>
 
@@ -74,7 +81,7 @@
 
             <tr>
               <td><p>this exact word or phrase: </p></td>
-              <td><input name="as_epq" type="text" value="" size="40"></td>
+              <td><input name="as_epq" type="text" value="" size="65"></td>
               <td class="td3"><p>Put exact words in quotes: "rat terrier"</p></td>
               </tr>
 
@@ -84,7 +91,7 @@
 
             <tr>
               <td><p>any of these words:</p> </td>
-              <td><input class="jfk-textinput" value="" id="mSoczb" name="as_oq" type="text" size="40"></td>
+              <td><input class="jfk-textinput" value="" id="mSoczb" name="as_oq" type="text" size="65"></td>
               <td class="td3"><p>Type OR between all the words you want: miniature OR standard</p></td>
               </tr>
 
@@ -94,46 +101,30 @@
 
           <tr>
             <td><p>none of these words: </p></td>
-            <td><input class="jfk-textinput" value="" id="t2dX1c" name="as_eq" type="text" size="40"></td>
+            <td><input class="jfk-textinput" value="" id="t2dX1c" name="as_eq" type="text" size="65"></td>
             <td class="td3"><p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p></td>
           </tr>
           
+        
 
           </table>
+
+          <div class="child3">
+            <input class="btn btn-primary" type="submit" value="Advanced Search" >
+          </div>
 
           <!--
             Advance Search button
           -->
-          <input class="btn btn-primary" type="submit" value="Advanced Search">
 
 
         </form>
-        
-              
-
-<!--
-          <input class="jfk-button jfk-button-action dUBGpe" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px" value="Advanced Search" type="submit"> 
-
-
-  <input class="btn btn-primary" type="button" value="Input">
-          <input class="jfk-textinput" value="" id="t2dX1c" name="as_eq" type="hidden">
-
-                <input name="as_q" type="hidden" value="" >
-
-            <input class="jfk-textinput" value="" id="CwYCWc" name="as_epq" type="text"> 
-            <input class="jfk-textinput" value="" id="mSoczb" name="as_oq" type="text"> 
-            <input class="jfk-textinput" value="" id="t2dX1c" name="as_eq" type="text"> 
-            <input class="jfk-textinput" id="LK5akc" name="as_nlo" type="text">
-            <input class="jfk-textinput" name="as_nhi" type="text">
-            <input id="lr_input" name="lr" value="" type="hidden">
-
--->
-       
+           
 
     <!--
       Bottom Navbar
       -->
-      <div class="position-relative" style="padding-top: 240px;">
+      <div class="position-relative" style="padding-top: 14%">
         <div class="position-absolute bottom-0 start-0">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -141,18 +132,15 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://about.google/?utm_source=google-VE&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                        <a class="nav-link active" aria-current="page" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-VE&fg=1">Help</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="https://www.google.com/intl/en_ve/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                        <a class="nav-link" href="https://policies.google.com/privacy?hl=en-VE&fg=1">Privacy</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                        <a class="nav-link" href="https://policies.google.com/privacy?hl=en-VE&fg=1">Terms</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
-                      </li>
-                   
+                      
        
                   </div>
                 </div>
