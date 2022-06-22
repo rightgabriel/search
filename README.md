@@ -4,7 +4,7 @@ Search is a front-end site for Google Search, Google Image Search, and Google Ad
 
 # Description
 
-As outlined in CS50's Programming with Python and JavaScript course,  Search is a web page that connects with Google Search, Google Image Search, and Google Advanced Search to sent GET inputs to these sites. It consists of 3 html files: index.html, image.html, and advanced.html .
+As outlined in CS50's Programming with Python and JavaScript course for Project0,  Search is a web page that connects with Google Search, Google Image Search, and Google Advanced Search to sent GET inputs to these sites. It consists of 3 html files: index.html, image.html, and advanced.html .
 
 index.html consists of a front-end for Google Search. It has a rounded search bar, and two buttons for searching: Google Search, which googles a query; and I'm feeling lucky, which returns the main site of a query. 
 
