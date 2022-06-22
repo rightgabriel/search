@@ -3,11 +3,38 @@ form {
     padding-top: 0px;
 }
 
-img {
+.img1 {
     height: 200px;
     width:250px;
     padding-top: 60px;
 }
+
+.img2 {
+height: 40px;
+width:75px;
+margin-top: -20px;
+margin-left: -1250px;
+text-align: left;
+}
+
+.img3 {
+    height: 200px;
+    width:250px;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+
+
+.marge {
+    margin: 5px;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+}
+
 .parent {
     text-align: center;
 }
@@ -16,3 +43,23 @@ img {
     padding: 1rem 1rem;
     vertical-align: middle;
   }
+
+.child1 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: left;
+  }
+
+
+td{
+   width:15rem;
+
+}
+
+.td3 {
+    width:50%
+}
+
+tr {
+    font-size: 10px;
+}

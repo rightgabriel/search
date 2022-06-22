@@ -11,61 +11,82 @@
     <body>
        
         
-          <div class="position-relative" style="padding-top: 40px;">
-            <div class="position-absolute top-50 end-0 translate-middle-y">
+      <!--
+      Top Navbar
+    -->
+        <div class="position-relative" style="padding-top: 40px;">
+          <div class="position-absolute top-50 end-0 translate-middle-y">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Search</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="image.html">Image Search</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Advanced Search</a>
-                          </li>
+              <nav class="navbar navbar-expand-lg " style="color: #ffffff;" >
+                  <div class="container-fluid" style="margin-top: 10px;">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link text-body" aria-current="page" href="index.html" >Back to Search</a>
+                        </li>
+                        <li class="nav-item top" style="margin-top: 5px;">
+                          <img src="dots.png" height="25px" width="25px">
+                        </li>
+                        <li class="nav-item" style="margin-top: 3px;">
+                          <img src="G.svg" height="35px" width="35px">
+                        </li>
                           
-                      </div>
+                        </li>
+         
                     </div>
-                  </nav>
-            </div>
-          </div>   
+                  </div>
+                </nav>
+          </div>
+        
+        </div>        
+      
 
+           <!--
+            Google logo centered
+          -->
           <center>
-            <img src="logo.png"
+            <img src="logo.png" class="img1">
           </center>
 
+           <!--
+          Search input bar
+        -->
         <form method='get' action="https://images.google.com/search">
-            <input name="q" type="text"  size="54">
+            <input name="q" type="text"  size="54" style="border-radius: 25px; border: 0.5px solid #D3D3D3;">
             <input name="tbm" type="hidden" value="isch">
             <input name="ved" type="hidden" value="2ahUKEwjm1NDG77z4AhWDEt8KHabbADwQ2-cCegQIABAA">
-            <div class="parent">
-            <div class="child">
-                <input type="submit" value="Google Image Search" class="form-control">
-            </div>
-            <div class="child">
-                <input type="submit" value="I'm Feeling Lucky" class="form-control">
-            </div>
-            </div>
         </form>
+  
+
+    <!--
+      Bottom Navbar
+      -->
+      <div class="position-relative" style="padding-top: 320px;">
+        <div class="position-absolute bottom-0 start-0">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://about.google/?utm_source=google-VE&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/intl/en_ve/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+                      </li>
+                   
+       
+                  </div>
+                </div>
+
+        </div>
+
     </body>
 </html>
     
-
-<!--
-
-<form  method='get' action="https://images.google.com/search">
-    <input name="q" type="text" >
-    <input name="tbm" type="hidden" value="isch">
-    <input name="ved" type="hidden" value="2ahUKEwjm1NDG77z4AhWDEt8KHabbADwQ2-cCegQIABAA">
-    <input type="submit" value="Google Image Search">
-
-
-https://www.google.com/search?q=s&sxsrf=ALiCzsaoo9D5nKDVzIt2cd3pqmVGd0TUvw%3A1655738503964&source=hp&ei=h5CwYvaZOOfnwbkPmKWPmA4&iflsig=AJiK0e8AAAAAYrCel2el9q7YrIxgknEJxRYzEoevEHQD&ved=0ahUKEwi2-ffKqrz4AhXnczABHZjSA-MQ4dUDCAc&uact=5&oq=s&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAguEEMyCwguEIAEEMcBEKMCMgUIABCABDIFCAAQgAQyBQguEIAEMgsILhCABBDHARDRAzIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnUIcCWIcCYPsIaAFwAHgAgAGkAYgBpAGSAQMwLjGYAQCgAQGwAQo&sclient=gws-wiz
-https://www.google.com/search?q=s&tbm=isch&sxsrf=ALiCzsbkMHWi9m-5wjIxsKdHEPxyFEMNFw%3A1655736395332&source=hp&biw=1366&bih=625&ei=S4iwYp-1EavmwbkP5_en8Ao&iflsig=AJiK0e8AAAAAYrCWWw5T-VeR8IyvmnuaJiejB--0QpxH&ved=0ahUKEwjfhrvdorz4AhUrczABHef7Ca4Q4dUDCAc&uact=5&oq=s&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEOoCECdQDlgOYL0CaAFwAHgAgAFviAFvkgEDMC4xmAEAoAEBqgELZ3dzLXdpei1pbWewAQQ&sclient=img
--->
-

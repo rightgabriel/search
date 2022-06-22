@@ -9,21 +9,29 @@
 
     <body>
        
+      <!--
+        Top Navbar
+      -->
           <div class="position-relative" style="padding-top: 40px;">
             <div class="position-absolute top-50 end-0 translate-middle-y">
 
-                <nav class="navbar navbar-expand-lg" style="color: #ffffff;">
-                    <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg " style="color: #ffffff;" >
+                    <div class="container-fluid" style="margin-top: 10px;">
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="image.html" >Images</a>
+                            <a class="nav-link text-body" aria-current="page" href="image.html" >Images</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#" class="link-dark">Advanced</a>
+                          <li class="nav-item" >
+                            <a class="nav-link text-body" href="advanced.html" class="link-dark">Advanced</a>
                           </li>
-                          
-                            </a>
+                          <li class="nav-item top" style="margin-top: 5px;">
+                            <img src="dots.png" height="25px" width="25px">
+                          </li>
+                          <li class="nav-item" style="margin-top: 3px;">
+                            <img src="G.svg" height="35px" width="35px">
+                          </li>
+                            
                           </li>
            
                       </div>
@@ -31,8 +39,13 @@
                   </nav>
             </div>
           
-          </div>        <center>
-            <img src="logo.png"
+          </div>        
+        
+          <!--
+            Google logo centered
+          -->
+        <center>
+            <img src="logo.png" class="img1"
         </center>
 
  
@@ -51,12 +64,25 @@
             </div>
         </form>
         -->
+
+        <!--
+          Search input bar
+        -->
         <form action="https://www.google.com/search" >
-          <input type="text" name="q" size="54">
+          <input type="text" name="q" size="54" style="border-radius: 25px; border: 0.5px solid #D3D3D3;">
+          
           <div class="parent">
+          
+            <!--
+              Search button
+            -->
             <div class="child">
                 <input type="submit" value="Google Search" class="form-control">
             </div>
+
+            <!--
+              "I'm feeling lucky" button
+            -->
             <div class="child">
 
           <input name="btnI" type="submit" jsaction="trigger.kWlxhc" data-ved="0ahUKEwjBmcn87L74AhWofDABHdYFBakQ19QECAg" value="I'm Feeling Lucky" class="form-control">
@@ -66,7 +92,9 @@
           </div>
       </form>
 
-
+      <!--
+        Bottom Navbar
+      -->
       <div class="position-relative" style="padding-top: 240px;">
         <div class="position-absolute bottom-0 start-0">
 
